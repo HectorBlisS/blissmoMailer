@@ -15,7 +15,6 @@ export default function Index() {
   return (
     <Form
       method="post"
-      action="."
       style={{
         display: 'flex',
         flexDirection: 'column',
