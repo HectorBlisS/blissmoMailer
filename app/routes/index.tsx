@@ -1,7 +1,7 @@
 import { type ActionFunction } from '@remix-run/node';
 import { Form, useActionData } from '@remix-run/react';
 import { sendWelcomeMail } from '~/utils/mailer.server';
-
+//
 export const action: ActionFunction = async ({ request }) => {
   const formData = await request.formData();
   const name = String(formData.get('name'));
