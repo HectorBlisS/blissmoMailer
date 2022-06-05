@@ -26,7 +26,7 @@ export default function Index() {
       }}
     >
       <p>
-        {actionData?.name} {actionData?.email}
+        {actionData?.name && actionData.email && 'Gracias pro suscribeirte'}
       </p>
       <input name="name" placeholder="Escribe tu nombre" />
       <input type="email" name="email" placeholder="Escribe tu correo" />
